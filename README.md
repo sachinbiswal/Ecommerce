@@ -1,6 +1,6 @@
-# MCT Project 
+# Ecommerce Project 
 
-## TECH USED :- REACT-JS, REDUX 
+## TECH USED :- REACT-JS, REDUX ,CSS
 
 ## Credential
 
