@@ -1,0 +1,134 @@
+.home {
+    width: 100%;
+    height: 92vh;
+   background: url("https://img.freepik.com/free-photo/arrangement-black-friday-shopping-carts-with-copy-space_23-2148667047.jpg?w=1060&t=st=1703012946~exp=1703013546~hmac=e59a3df12fea4c5966cdb1c14a4cbe1ddffd4c426ae91a5dcb79e1ea3ee142a8");
+   display: flex;
+   justify-content: center;
+   object-fit: cover;
+   background-size: cover;
+   align-items: center;
+  
+}
+
+.home_maincontainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.home_maincontainer h1 {
+    font-size: 2rem;
+    padding: 1rem 0rem;
+
+}
+
+.home_maincontainer p {
+    padding: 1rem 4rem;
+    text-align: center;
+}
+
+.explore {
+    width: 13%;
+    height: 8%;
+    cursor: pointer;
+    border-radius: 0;
+    font-size: 1rem;
+    border: 1px black solid;
+    background: transparent;
+    font-weight: 800;
+    color: black;
+    margin: 2rem;
+    border-radius: 10px;
+
+}
+
+@media  only screen and (max-width:480px) {
+    .home_maincontainer{
+        height: 100%;
+    }
+    .home_maincontainer h1{
+        font-size: 1.2rem;
+    }
+
+    .home_maincontainer p {
+       font-size: 0.9rem;
+       padding: 1rem 1rem;
+    }
+
+    .explore{
+        width: 30%;
+        margin: 1rem;
+        padding: 5px;
+        font-size: 0.8rem;
+       
+    }
+   
+    
+}
+@media  only screen and (min-width:481px) and (max-width:600px) {
+
+    .home_maincontainer h1{
+        font-size: 1.5rem;
+    }
+
+    .home_maincontainer p {
+       font-size: 0.9rem;
+       padding: 1rem 1rem;
+    }
+    
+    .explore{
+        width: 25%;
+        margin: 1rem;
+        padding: 5px;
+        font-size: 0.8rem;
+       
+    }
+   
+
+    
+}
+@media  only screen and (min-width:601px) and (max-width:800px) {
+   
+    .home_maincontainer h1{
+        font-size: 1.8rem;
+    }
+
+    .home_maincontainer p {
+       font-size: 0.9rem;
+       padding: 1rem 2rem;
+
+    }
+    
+    .explore{
+        width: 23%;
+        margin: 1rem;
+        padding: 5px;
+        font-size: 0.8rem;
+       
+    }
+   
+
+    
+}
+
+@media  only screen and (min-width:801px) and (max-width:1000px) {
+  
+    .home_maincontainer h1{
+        font-size: 1.8rem;
+    }
+
+    .home_maincontainer p {
+       font-size: 0.9rem;
+    }
+    
+    .explore{
+        width: 20%;
+        margin: 1rem;
+       
+    }
+    
+}

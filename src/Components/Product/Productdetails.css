@@ -1,0 +1,157 @@
+.productdetails {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .productdetails_maincontainer {
+    width: 100%;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  .topheading {
+    width: 100%;
+    height: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #90ee90;
+  }
+  
+  h3 {
+    color: grey;
+  }
+  
+  p {
+    font-size: large;
+    font-weight: 500;
+  }
+  
+  .topheading h2 {
+    text-transform: capitalize;
+  }
+  
+  .lower_maincontainer {
+    width: 100%;
+    height: 85%;
+    display: flex;
+    /* flex-direction: column; */
+  }
+  
+  .image_container {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image_container img {
+    width: 80%;
+    height: 90%;
+  }
+  
+  .details_container {
+    width: 100%;
+    height: 90%;
+  }
+  
+  .pname {
+    width: 100%;
+    margin: 10px 0px;
+  }
+  
+  .description {
+    height: 45%;
+  }
+  
+  .pname p {
+    font-size: 16px;
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .productdetails_maincontainer {
+      width: 100%;
+    }
+    .image_container img {
+      width: 70%;
+      height: 80%;
+    }
+  
+    .pname {
+      width: 100%;
+      margin: 10px 0px;
+    }
+    .description {
+      height: 30%;
+    }
+    .pname h3 {
+      font-size: 10px;
+    }
+    .pname p {
+      font-size: 10px;
+    }
+    .lower_maincontainer{
+        flex-direction: column;
+    }
+  }
+  
+  @media only screen and (min-width: 481px) and (max-width: 600px) {
+    .productdetails_maincontainer {
+      width: 100%;
+    }
+    .image_container img {
+      width: 70%;
+      height: 100%;
+    }
+  
+    .pname {
+      width: 100%;
+      margin: 10px 0px;
+    }
+    .description {
+      height: 35%;
+    }
+    .pname h3 {
+      font-size: 12px;
+    }
+    .pname p {
+      font-size: 12px;
+    }
+    .lower_maincontainer{
+        flex-direction: column;
+    }
+  }
+  
+  @media only screen and (min-width: 601px) and (max-width: 800px) {
+    .productdetails_maincontainer {
+      width: 100%;
+    }
+    .image_container img {
+      width: 40%;
+      height: 80%;
+    }
+  
+    .pname {
+      width: 100%;
+      margin: 10px 0px;
+    }
+    .description {
+      height: 35%;
+    }
+    .pname h3 {
+      font-size: 14px;
+    }
+    .pname p {
+      font-size: 13px;
+    }
+    .lower_maincontainer{
+        flex-direction: column;
+    }
+  }
+  
+  
+  
